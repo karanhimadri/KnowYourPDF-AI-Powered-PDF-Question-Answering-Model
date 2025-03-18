@@ -1,0 +1,142 @@
+.input-bar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  /* background-color: #1b263b; */
+  background-color: #f8edeb;
+}
+.input-bar-container .inner-bar-container {
+  display: flex;
+  justify-content: center;
+  /* background-color: #0d1b2a; */
+  background-color: #ffd7ba;
+  width: 50vw;
+  flex-direction: column; /* Reverse the flow */
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.5); */
+  border: 2px solid black;
+}
+.inner-bar-container .textarea-input-field {
+  position: relative;
+  display: flex;
+  /* flex-direction: column-reverse; */
+  width: 50vw;
+  gap: 5px;
+  padding-left: 2px;
+}
+.textarea-input-field textarea {
+  width: 92%;
+  min-height: 30px;
+  max-height: 70px;
+  resize: none;
+  padding: 10px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  font-size: 16px;
+  /* background-color: #0d1b2a; */
+  background-color: #ffd7ba;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  overflow-y: auto;
+  transition: height 0.2s ease;
+  transform-origin: top;
+  outline: none;
+}
+.textarea-input-field textarea:focus {
+  outline: none;
+  border: none;
+}
+/* Custom Scrollbar */
+textarea::-webkit-scrollbar {
+  width: 10px;
+}
+textarea::-webkit-scrollbar-track {
+  background: #778da9;
+  border-radius: 10px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: #415a77;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.textarea-input-field .send-btn button {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%; /* Makes it circular */
+  color: black;
+  font-size: 24px; /* Adjust icon size */
+  cursor: pointer;
+  background-color: #ffd7ba;
+}
+.send-btn .icon {
+  font-size: 1.4rem;
+  padding-top: 3px;
+  padding-right: 1px;
+}
+.send-btn button:hover {
+  background-color: #fec89a;
+}
+.inner-bar-container .option-field {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  gap: 10px;
+  padding-left: 6px;
+  padding-top: 10px;
+}
+.option-field .context-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #6c757d;
+  padding: 1.5px 10px 1.5px 5px;
+  border-radius: 10px;
+  gap: 4px;
+  background-color: #ffd7ba;
+}
+.context-field:hover {
+  background-color: #fec89a;
+}
+.context-field label {
+  padding-bottom: 2px;
+  cursor: pointer;
+  color: #284b63;
+}
+.option-field .upload-file {
+  display: flex;
+  border: 2px solid #6c757d;
+  border-radius: 10px;
+  padding: 4.5px 10px 4.5px 0;
+}
+.upload-file:hover {
+  background-color: #fec89a;
+}
+.upload-file label {
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+  color: #284b63;
+}
+.upload-file label .pdf-icon {
+  color: #008000;
+  font-weight: 700;
+  padding-left: 8px;
+  font-size: 20px;
+}

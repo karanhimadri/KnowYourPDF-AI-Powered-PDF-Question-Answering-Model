@@ -1,0 +1,166 @@
+.kypdf-container {
+  display: flex;
+  flex-direction: column;
+}
+.homapage-container {
+  margin-top: 50px;
+  width: 98.9vw;
+  height: 90vh;
+  background-color: #062327;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.homapage-container .homepage-inner-container {
+  color: white;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: -70px;
+}
+.homepage-inner-container h2 {
+  font-size: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.homepage-inner-container .para {
+  width: 700px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.homepage-inner-container .homepage-btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.homepage-btns .hp-ttd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: #062327;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.homepage-btns .hp-gsff {
+  padding: 8px 15px;
+  color: white;
+  background-color: #ff592f;
+  border: 2px solid #ff592f;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.hp-ttd .hp-arrow-icon {
+  padding-top: 15px;
+  color: white;
+}
+
+.homepage-inner-container .homepage-img-icons {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.homepage-img-icons img {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid darkcyan;
+}
+.homepage-img-icons p {
+  padding-top: 13px;
+  margin-left: 15px;
+  font-size: 16px;
+}
+/* Add CSS for How its work and also for second container */
+
+.homepage-second-container {
+  width: 100%;
+  height: 65vh;
+  background-color: #edf2fb;
+}
+.homepage-second-container .homepage-second-inner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+.homepage-second-inner-container .hp-block {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hp-block p {
+  text-align: center;
+  width: 300px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.hp-block h1 {
+  border-top: 2px solid darkgray;
+  padding-top: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.homepage-second-inner-container .block1 {
+  padding-top: 17px;
+}
+.homepage-second-inner-container .block2 {
+  padding-top: 20px;
+}
+.homepage-second-inner-container .block3 {
+  padding-top: 48px;
+}
+
+/* working with third container */
+.homepage-third-container {
+  width: 100%;
+  height: 90vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: -100px;
+  margin-bottom: 100px;
+}
+.homepage-third-container .homepage-testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin: 50px;
+}
+.homepage-testimonials .bl-2 {
+  padding-bottom: 40px;
+}
+.homepage-testimonials .bl-3 {
+  padding-bottom: 40px;
+}
+.homepage-testimonials .test1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.test1 img {
+  width: 80px;
+}
+.test1 h5 {
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.test1 p {
+  width: 300px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.hr-tag {
+  margin-top: 100px;
+}

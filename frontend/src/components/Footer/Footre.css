@@ -1,0 +1,93 @@
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.footer-container .company-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  margin-top: -200px;
+  gap: 30px;
+}
+.company-bar img {
+  width: 200px;
+}
+.company-bar p {
+  width: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+.company-bar .social-media-icon {
+  display: flex;
+  align-items: center;
+  font-size: 23px;
+  gap: 20px;
+  cursor: pointer;
+}
+.social-media-icon .twitter {
+  color: #1e96fc;
+  transition: text-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.social-media-icon .twitter:hover {
+  text-shadow: 0 0 15px #1e96fc; /* Glow effect on the icon */
+  transform: scale(1.1); /* Slight zoom effect */
+  cursor: pointer; /* Indicates clickability */
+}
+
+.social-media-icon .instagram {
+  color: #ff0054;
+  transition: text-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+.social-media-icon .instagram:hover {
+  text-shadow: 0 0 15px #ff0054; /* Glow effect on the icon */
+  transform: scale(1.1); /* Slight zoom effect */
+  cursor: pointer; /* Indicates clickability */
+}
+.social-media-icon .facebook {
+  color: #072ac8;
+  transition: text-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+.social-media-icon .facebook:hover {
+  text-shadow: 0 0 15px #072ac8; /* Glow effect on the icon */
+  transform: scale(1.1); /* Slight zoom effect */
+  cursor: pointer; /* Indicates clickability */
+}
+.social-media-icon .youtube {
+  color: #d62828;
+  transition: text-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+.social-media-icon .youtube:hover {
+  text-shadow: 0 0 15px #d62828; /* Glow effect on the icon */
+  transform: scale(1.1); /* Slight zoom effect */
+  cursor: pointer; /* Indicates clickability */
+}
+.products-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.service-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.legal-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: -115px;
+}
+.footer-header {
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+}
+.footer-options p {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
